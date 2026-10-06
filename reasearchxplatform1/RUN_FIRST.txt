@@ -1,0 +1,35 @@
+RESEARCHX — BOSSMODE FINAL
+
+1. Extract this whole folder.
+2. Open THIS folder in VS Code.
+3. The structure must be:
+   main.py
+   requirements.txt
+   researchx.db
+   start.bat
+   static\index.html
+   static\app.js
+   static\styles.css
+4. In VS Code Terminal run:
+   python -m pip install -r requirements.txt
+   python -m uvicorn main:app --reload --host 127.0.0.1 --port 8000
+5. Open http://127.0.0.1:8000/
+6. Do NOT use Live Server.
+
+DEMO LOGINS
+Admin: admin@researchx.demo / admin123
+Sponsor: sponsor@researchx.demo / sponsor123
+Student: maya@researchx.demo / student123
+Mentor: mentor@researchx.demo / mentor123
+
+BOSSMODE FEATURES
+- Project Charter is required and visible before joining.
+- Charter has scope, rewards/payment terms, roles/eligibility, IP/publication, confidentiality/AI, credit split, exit/dispute, and future commercialisation clauses.
+- Funded and Stipend / honorarium projects are paid and require age 18+ for participants.
+- Knowledge-sharing and Institutional credit projects are explicitly non-monetary; joining requires a separate no-payment acknowledgement.
+- Editing a project creates a new charter version and existing participants are marked Reaccept required.
+- Participants can re-accept the new charter or leave with accepted contribution credit preserved in the ledger.
+- Admin project management, sponsor marketplace, student applications and notifications remain functional.
+- Ledger remains tamper-evident and AI credit stays with the human owner/reviewer.
+
+IMPORTANT: No real money or real personal data is used. Payments are simulated for the hackathon PoC.
